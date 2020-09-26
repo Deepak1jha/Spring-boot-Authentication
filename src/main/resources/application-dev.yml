@@ -1,0 +1,18 @@
+server:
+  port: 8287
+spring:
+  data:
+    mongodb:
+      database: eshop
+      host: localhost
+      port: 27017
+app:
+  jwtSecret: "G,yEz0Nn2z0L[G<}xpHR[$Ip<`s&qL4I0g#`dj{yje@*hFAE_DvAgTYU@Gkomi#"
+  jwtExpirationInHours: 48
+
+filePath:
+  path: "/home/deepak/Desktop/"
+
+upcoming:
+  event:
+    days: 3
